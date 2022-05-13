@@ -10,13 +10,6 @@
   <project name="assets/android-studio-ux-assets" />
   <project name="device/amlogic/yukawa" />
   <project name="device/amlogic/yukawa-kernel" groups="kernel" />
-  <project name="device/asus/deb" />
-  <project name="device/asus/flo" />
-  <project name="device/asus/flo-kernel" groups="kernel" />
-  <project name="device/asus/fugu" />
-  <project name="device/asus/fugu-kernel" groups="kernel" />
-  <project name="device/asus/grouper" />
-  <project name="device/asus/tilapia" />
   <project name="device/common" />
   <project name="device/generic/arm64" />
   <project name="device/generic/armv7-a" />
@@ -92,23 +85,7 @@
   <project name="device/google/wahoo" />
   <project name="device/google/wahoo-kernel" groups="kernel" />
   <project name="device/google_car" />
-  <project name="device/htc/common" />
-  <project name="device/htc/dream" />
-  <project name="device/htc/dream-sapphire" />
-  <project name="device/htc/flounder" />
-  <project name="device/htc/flounder-kernel" groups="kernel" />
-  <project name="device/htc/passion" />
-  <project name="device/htc/passion-common" />
-  <project name="device/htc/sapphire" />
-  <project name="device/huawei/angler" />
-  <project name="device/huawei/angler-kernel" groups="kernel" />
   <project name="device/intel/edison" />
-  <project name="device/lge/bullhead" />
-  <project name="device/lge/bullhead-kernel" groups="kernel" />
-  <project name="device/lge/hammerhead" />
-  <project name="device/lge/hammerhead-kernel" groups="kernel" />
-  <project name="device/lge/mako" />
-  <project name="device/lge/mako-kernel" groups="kernel" />
   <project name="device/linaro/bootloader/OpenPlatformPkg" />
   <project name="device/linaro/bootloader/arm-trusted-firmware" />
   <project name="device/linaro/bootloader/edk2" />
@@ -125,15 +102,6 @@
   <project name="device/moto/stingray" />
   <project name="device/moto/wingray" />
   <project name="device/sample" />
-  <project name="device/samsung/crespo" />
-  <project name="device/samsung/crespo4g" />
-  <project name="device/samsung/maguro" />
-  <project name="device/samsung/manta" />
-  <project name="device/samsung/toro" />
-  <project name="device/samsung/toroplus" />
-  <project name="device/samsung/torospr" />
-  <project name="device/samsung/tuna" />
-  <project name="device/samsung_slsi/arndale" />
   <project name="device/ti/beagle-x15" />
   <project name="device/ti/beagle-x15-kernel" groups="kernel" />
   <project name="device/ti/panda" />
@@ -1259,8 +1227,6 @@
   <project name="platform/hardware/marvell/bt" />
   <project name="platform/hardware/mediatek" />
   <project name="platform/hardware/msm7k" />
-  <project name="platform/hardware/nvidia/audio" />
-  <project name="platform/hardware/nvidia/tegra124" />
   <project name="platform/hardware/nxp/nfc" />
   <project name="platform/hardware/nxp/secure_element" />
   <project name="platform/hardware/qcom/audio" />
@@ -1313,8 +1279,6 @@
   <project name="platform/hardware/qcom/sm8150p/gps" />
   <project name="platform/hardware/qcom/wlan" />
   <project name="platform/hardware/ril" />
-  <project name="platform/hardware/samsung/nfc" />
-  <project name="platform/hardware/samsung_slsi/exynos5" />
   <project name="platform/hardware/st/nfc" />
   <project name="platform/hardware/st/secure_element" />
   <project name="platform/hardware/st/secure_element2" />
@@ -1856,7 +1820,6 @@
   <project name="platform/tools/tradefederation/prebuilts" />
   <project name="platform/tools/treble" />
   <project name="platform/tools/trebuchet" />
-  <project name="platform/vendor/htc/dream-open" />
   <project name="platform/vendor/sample" />
   <project name="toolchain/benchmark" />
   <project name="toolchain/binutils" />
