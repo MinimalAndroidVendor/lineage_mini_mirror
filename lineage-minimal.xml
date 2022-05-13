@@ -368,8 +368,6 @@
   <project name="LineageOS/android_hardware_lineage_lineagehw" />
   <project name="LineageOS/android_hardware_lineage_livedisplay" />
   <project name="LineageOS/android_hardware_lineage_telephony" />
-  <project name="LineageOS/android_hardware_nvidia_audio" />
-  <project name="LineageOS/android_hardware_nvidia_tegra124" />
   <project name="LineageOS/android_hardware_nxp_nfc" />
   <project name="LineageOS/android_hardware_qcom-caf_common" />
   <project name="LineageOS/android_hardware_qcom_audio" />
@@ -408,7 +406,6 @@
   <project name="LineageOS/android_hardware_qcom_vr" />
   <project name="LineageOS/android_hardware_qcom_wlan" />
   <project name="LineageOS/android_hardware_ril" />
-  <project name="LineageOS/android_hardware_samsung_slsi_exynos5" />
   <project name="LineageOS/android_hardware_ti_omap3" />
   <project name="LineageOS/android_hardware_ti_omap4" />
   <project name="LineageOS/android_hardware_ti_omap4xxx" />
@@ -563,9 +560,6 @@
   <project name="LineageOS/android_prebuilts_build-tools" />
   <project name="LineageOS/android_prebuilts_cmsdk" />
   <project name="LineageOS/android_prebuilts_extract-tools" />
-  <project name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
-  <project name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" />
-  <project name="LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" />
   <project name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
   <project name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" />
   <project name="LineageOS/android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" />

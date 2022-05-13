@@ -10,13 +10,6 @@
   <project name="assets/android-studio-ux-assets" />
   <project name="device/amlogic/yukawa" />
   <project name="device/amlogic/yukawa-kernel" groups="kernel" />
-  <project name="device/asus/deb" />
-  <project name="device/asus/flo" />
-  <project name="device/asus/flo-kernel" groups="kernel" />
-  <project name="device/asus/fugu" />
-  <project name="device/asus/fugu-kernel" groups="kernel" />
-  <project name="device/asus/grouper" />
-  <project name="device/asus/tilapia" />
   <project name="device/common" />
   <project name="device/generic/arm64" />
   <project name="device/generic/armv7-a" />
@@ -92,23 +85,7 @@
   <project name="device/google/wahoo" />
   <project name="device/google/wahoo-kernel" groups="kernel" />
   <project name="device/google_car" />
-  <project name="device/htc/common" />
-  <project name="device/htc/dream" />
-  <project name="device/htc/dream-sapphire" />
-  <project name="device/htc/flounder" />
-  <project name="device/htc/flounder-kernel" groups="kernel" />
-  <project name="device/htc/passion" />
-  <project name="device/htc/passion-common" />
-  <project name="device/htc/sapphire" />
-  <project name="device/huawei/angler" />
-  <project name="device/huawei/angler-kernel" groups="kernel" />
   <project name="device/intel/edison" />
-  <project name="device/lge/bullhead" />
-  <project name="device/lge/bullhead-kernel" groups="kernel" />
-  <project name="device/lge/hammerhead" />
-  <project name="device/lge/hammerhead-kernel" groups="kernel" />
-  <project name="device/lge/mako" />
-  <project name="device/lge/mako-kernel" groups="kernel" />
   <project name="device/linaro/bootloader/OpenPlatformPkg" />
   <project name="device/linaro/bootloader/arm-trusted-firmware" />
   <project name="device/linaro/bootloader/edk2" />
@@ -125,15 +102,6 @@
   <project name="device/moto/stingray" />
   <project name="device/moto/wingray" />
   <project name="device/sample" />
-  <project name="device/samsung/crespo" />
-  <project name="device/samsung/crespo4g" />
-  <project name="device/samsung/maguro" />
-  <project name="device/samsung/manta" />
-  <project name="device/samsung/toro" />
-  <project name="device/samsung/toroplus" />
-  <project name="device/samsung/torospr" />
-  <project name="device/samsung/tuna" />
-  <project name="device/samsung_slsi/arndale" />
   <project name="device/ti/beagle-x15" />
   <project name="device/ti/beagle-x15-kernel" groups="kernel" />
   <project name="device/ti/panda" />
@@ -1259,8 +1227,6 @@
   <project name="platform/hardware/marvell/bt" />
   <project name="platform/hardware/mediatek" />
   <project name="platform/hardware/msm7k" />
-  <project name="platform/hardware/nvidia/audio" />
-  <project name="platform/hardware/nvidia/tegra124" />
   <project name="platform/hardware/nxp/nfc" />
   <project name="platform/hardware/nxp/secure_element" />
   <project name="platform/hardware/qcom/audio" />
@@ -1313,8 +1279,6 @@
   <project name="platform/hardware/qcom/sm8150p/gps" />
   <project name="platform/hardware/qcom/wlan" />
   <project name="platform/hardware/ril" />
-  <project name="platform/hardware/samsung/nfc" />
-  <project name="platform/hardware/samsung_slsi/exynos5" />
   <project name="platform/hardware/st/nfc" />
   <project name="platform/hardware/st/secure_element" />
   <project name="platform/hardware/st/secure_element2" />
@@ -1529,7 +1493,6 @@
   <project name="platform/prebuilts/android-emulator-build/mesa-deps" />
   <project name="platform/prebuilts/android-emulator-build/qemu-android-deps" />
   <project name="platform/prebuilts/asuite" />
-  <project name="platform/prebuilts/bazel/darwin-x86_64" groups="darwin" />
   <project name="platform/prebuilts/bazel/linux-x86_64" />
   <project name="platform/prebuilts/boot-artifacts" groups="kernel-extra,notdefault" />
   <project name="platform/prebuilts/build-tools" />
@@ -1537,17 +1500,6 @@
   <project name="platform/prebuilts/checkcolor" />
   <project name="platform/prebuilts/checkstyle" />
   <project name="platform/prebuilts/clang-tools" />
-  <project name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />
-  <project name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" />
-  <project name="platform/prebuilts/clang/darwin-x86/arm/3.3" groups="darwin" />
-  <project name="platform/prebuilts/clang/darwin-x86/host/3.3" groups="darwin" />
-  <project name="platform/prebuilts/clang/darwin-x86/host/3.4" groups="darwin" />
-  <project name="platform/prebuilts/clang/darwin-x86/host/3.5" groups="darwin" />
-  <project name="platform/prebuilts/clang/darwin-x86/host/3.6" groups="darwin" />
-  <project name="platform/prebuilts/clang/darwin-x86/mips/3.3" groups="darwin,mips" />
-  <project name="platform/prebuilts/clang/darwin-x86/sdk/3.5" groups="darwin" />
-  <project name="platform/prebuilts/clang/darwin-x86/x86/3.3" groups="darwin" />
-  <project name="platform/prebuilts/clang/host/darwin-x86" groups="darwin" />
   <project name="platform/prebuilts/clang/host/linux-x86" />
   <project name="platform/prebuilts/clang/host/windows-x86" groups="windows" />
   <project name="platform/prebuilts/clang/host/windows-x86_32" groups="windows" />
@@ -1560,7 +1512,6 @@
   <project name="platform/prebuilts/clang/linux-x86/host/3.6" />
   <project name="platform/prebuilts/clang/linux-x86/mips/3.3" groups="mips" />
   <project name="platform/prebuilts/clang/linux-x86/x86/3.3" />
-  <project name="platform/prebuilts/cmake/darwin-x86" groups="darwin" />
   <project name="platform/prebuilts/cmake/linux-x86" />
   <project name="platform/prebuilts/cmake/windows-x86" groups="windows" />
   <project name="platform/prebuilts/cmdline-tools" />
@@ -1572,35 +1523,11 @@
   <project name="platform/prebuilts/fuchsia_sdk" />
   <project name="platform/prebuilts/fullsdk-linux/build-tools/26.0.1" />
   <project name="platform/prebuilts/fullsdk-linux/build-tools/28.0.3" />
-  <project name="platform/prebuilts/fullsdk/build-tools/21-darwin" groups="darwin" />
   <project name="platform/prebuilts/fullsdk/build-tools/21-linux" />
   <project name="platform/prebuilts/fullsdk/platforms/android-21" />
   <project name="platform/prebuilts/fullsdk/platforms/android-26" />
   <project name="platform/prebuilts/fullsdk/platforms/android-28" />
   <project name="platform/prebuilts/gas/linux-x86" />
-  <project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.8" groups="darwin" />
-  <project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" groups="darwin" />
-  <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="darwin" />
-  <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" groups="darwin" />
-  <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="darwin" />
-  <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="darwin" />
-  <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="darwin" />
-  <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.8" groups="darwin" />
-  <project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" groups="darwin" />
-  <project name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="darwin" />
-  <project name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="darwin" />
-  <project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" groups="darwin,mips" />
-  <project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" groups="darwin,mips" />
-  <project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.4.3" groups="darwin,mips" />
-  <project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="darwin,mips" />
-  <project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" groups="darwin,mips" />
-  <project name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" groups="darwin,mips" />
-  <project name="platform/prebuilts/gcc/darwin-x86/x86/i686-android-linux-4.4.3" groups="darwin" />
-  <project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin" />
-  <project name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" groups="darwin" />
-  <project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.7" groups="darwin" />
-  <project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" groups="darwin" />
-  <project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="darwin" />
   <project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" />
   <project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" />
@@ -1630,12 +1557,9 @@
   <project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" />
   <project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.8" />
   <project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
-  <project name="platform/prebuilts/gdb/darwin-x86" groups="darwin" />
   <project name="platform/prebuilts/gdb/linux-x86" />
-  <project name="platform/prebuilts/go/darwin-x86" groups="darwin" />
   <project name="platform/prebuilts/go/linux-x86" />
   <project name="platform/prebuilts/go/windows-x86" groups="windows" />
-  <project name="platform/prebuilts/google-breakpad/darwin-x86" groups="darwin" />
   <project name="platform/prebuilts/google-breakpad/linux-x86" />
   <project name="platform/prebuilts/google-breakpad/windows-x86" groups="windows" />
   <project name="platform/prebuilts/gradle-plugin" />
@@ -1644,12 +1568,9 @@
   <project name="platform/prebuilts/jdk/jdk8" />
   <project name="platform/prebuilts/jdk/jdk9" />
   <project name="platform/prebuilts/ktlint" />
-  <project name="platform/prebuilts/libedit/darwin-x86" groups="darwin" />
   <project name="platform/prebuilts/libedit/linux-x86" />
-  <project name="platform/prebuilts/libglog/darwin-x86" groups="darwin" />
   <project name="platform/prebuilts/libglog/linux-x86" />
   <project name="platform/prebuilts/libglog/windows-x86" groups="windows" />
-  <project name="platform/prebuilts/libprotobuf/darwin-x86" groups="darwin" />
   <project name="platform/prebuilts/libprotobuf/linux-x86" />
   <project name="platform/prebuilts/libprotobuf/windows-x86" groups="windows" />
   <project name="platform/prebuilts/libs/libedit" />
@@ -1671,18 +1592,14 @@
   <project name="platform/prebuilts/module_sdk/art" />
   <project name="platform/prebuilts/module_sdk/conscrypt" />
   <project name="platform/prebuilts/ndk" />
-  <project name="platform/prebuilts/ninja/darwin-x86" groups="darwin" />
   <project name="platform/prebuilts/ninja/linux-x86" />
   <project name="platform/prebuilts/ninja/windows-x86" groups="windows" />
-  <project name="platform/prebuilts/python/darwin-x86" path="platform/prebuilts/python/darwin-x86.git" groups="darwin" />
-  <project name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" />
   <project name="platform/prebuilts/python/linux-x86" path="platform/prebuilts/python/linux-x86.git" />
   <project name="platform/prebuilts/python/linux-x86/2.7.5" />
   <project name="platform/prebuilts/python/windows-x86" groups="windows" />
   <project name="platform/prebuilts/qemu-kernel" />
   <project name="platform/prebuilts/r8" />
   <project name="platform/prebuilts/remoteexecution-client" />
-  <project name="platform/prebuilts/renderscript/host/darwin-x86" groups="darwin" />
   <project name="platform/prebuilts/renderscript/host/linux-x86" />
   <project name="platform/prebuilts/renderscript/host/windows-x86" groups="windows" />
   <project name="platform/prebuilts/runtime" />
@@ -1691,7 +1608,6 @@
   <project name="platform/prebuilts/simpleperf" />
   <project name="platform/prebuilts/studio/jdk" />
   <project name="platform/prebuilts/studio/layoutlib" />
-  <project name="platform/prebuilts/swig/darwin-x86" groups="darwin" />
   <project name="platform/prebuilts/swig/linux-x86" />
   <project name="platform/prebuilts/swig/windows-x86" groups="windows" />
   <project name="platform/prebuilts/tools" />
@@ -1856,7 +1772,6 @@
   <project name="platform/tools/tradefederation/prebuilts" />
   <project name="platform/tools/treble" />
   <project name="platform/tools/trebuchet" />
-  <project name="platform/vendor/htc/dream-open" />
   <project name="platform/vendor/sample" />
   <project name="toolchain/benchmark" />
   <project name="toolchain/binutils" />
