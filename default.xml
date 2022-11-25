@@ -8,6 +8,7 @@
            remote="github"
            sync-j="4" />
 
+<project name="LineageOS/android_bionic" />
 <project name="LineageOS/android_device_lineage_sepolicy" />
 <project name="LineageOS/android_frameworks_av" />
 <project name="LineageOS/android_frameworks_base" />
