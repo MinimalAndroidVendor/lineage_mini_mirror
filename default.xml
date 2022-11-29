@@ -34,7 +34,7 @@
 <project name="LineageOS/android_system_sepolicy" />
 <project name="LineageOS/android_vendor_lineage" />
 
-<project name="LineageOS/android_hardware_sony" remote="tmp" />
+<project name="android_hardware_sony" remote="tmp" />
 <project name="ROM-EXTRAS/android_bionic" remote="github-ssh" />
 <project name="ROM-EXTRAS/android_device_lineage_sepolicy" remote="github-ssh" />
 <project name="ROM-EXTRAS/android_frameworks_av" remote="github-ssh" />
