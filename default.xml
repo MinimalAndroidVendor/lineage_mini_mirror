@@ -28,5 +28,22 @@
 <project name="LineageOS/android_system_core" />
 <project name="LineageOS/android_system_sepolicy" />
 <project name="LineageOS/android_vendor_lineage" />
+  
+<project name="ROM-EXTRAS/android_bionic" remote="github-ssh" />
+<project name="ROM-EXTRAS/android_device_lineage_sepolicy" remote="github-ssh" />
+<project name="ROM-EXTRAS/android_frameworks_av" remote="github-ssh" />
+<project name="ROM-EXTRAS/android_frameworks_base" remote="github-ssh" />
+<project name="ROM-EXTRAS/android_frameworks_native" remote="github-ssh" />
+<project name="ROM-EXTRAS/android_hardware_interfaces" remote="github-ssh" />
+<project name="ROM-EXTRAS/android_hardware_lineage_interfaces" remote="github-ssh" />
+<project name="ROM-EXTRAS/android_lineage-sdk" remote="github-ssh" />
+<project name="ROM-EXTRAS/android_packages_apps_LineageParts" remote="github-ssh" />
+<project name="ROM-EXTRAS/android_packages_apps_Settings" remote="github-ssh" />
+<project name="ROM-EXTRAS/android_packages_apps_ThemePicker" remote="github-ssh" />
+<project name="ROM-EXTRAS/android_packages_inputmethods_LatinIME" remote="github-ssh" />
+<project name="ROM-EXTRAS/android_packages_services_Telecomm" remote="github-ssh" />
+<project name="ROM-EXTRAS/android_system_core" remote="github-ssh" />
+<project name="ROM-EXTRAS/android_system_sepolicy" remote="github-ssh" />
+<project name="ROM-EXTRAS/android_vendor_lineage" remote="github-ssh" />
 
 </manifest>
