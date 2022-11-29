@@ -8,6 +8,11 @@
            fetch="ssh://git@github.com"
            revision="lineage-19.1" />
 
+  <remote  name="tmp"
+           fetch="ssh://git@github.com/LineageOS"
+           push="../ROM-EXTRAS"
+           revision="lineage-19.1" />
+
   <default revision="lineage-19.1"
            remote="github"
            sync-j="4" />
@@ -28,7 +33,8 @@
 <project name="LineageOS/android_system_core" />
 <project name="LineageOS/android_system_sepolicy" />
 <project name="LineageOS/android_vendor_lineage" />
-  
+
+<project name="LineageOS/android_hardware_sony" remote="tmp" />
 <project name="ROM-EXTRAS/android_bionic" remote="github-ssh" />
 <project name="ROM-EXTRAS/android_device_lineage_sepolicy" remote="github-ssh" />
 <project name="ROM-EXTRAS/android_frameworks_av" remote="github-ssh" />
