@@ -3,6 +3,10 @@
 
   <remote  name="github"
            fetch=".." />
+  
+  <remote  name="github-ssh"
+           fetch="ssh://git@github.com"
+           revision="lineage-19.1" />
 
   <default revision="master"
            remote="github"
@@ -25,20 +29,4 @@
 <project name="LineageOS/android_system_sepolicy" />
 <project name="LineageOS/android_vendor_lineage" />
 
-<project name="ROM-EXTRAS/android_bionic" />
-<project name="ROM-EXTRAS/android_device_lineage_sepolicy" />
-<project name="ROM-EXTRAS/android_frameworks_av" />
-<project name="ROM-EXTRAS/android_frameworks_base" />
-<project name="ROM-EXTRAS/android_frameworks_native" />
-<project name="ROM-EXTRAS/android_hardware_interfaces" />
-<project name="ROM-EXTRAS/android_hardware_lineage_interfaces" />
-<project name="ROM-EXTRAS/android_lineage-sdk" />
-<project name="ROM-EXTRAS/android_packages_apps_LineageParts" />
-<project name="ROM-EXTRAS/android_packages_apps_Settings" />
-<project name="ROM-EXTRAS/android_packages_apps_ThemePicker" />
-<project name="ROM-EXTRAS/android_packages_inputmethods_LatinIME" />
-<project name="ROM-EXTRAS/android_packages_services_Telecomm" />
-<project name="ROM-EXTRAS/android_system_core" />
-<project name="ROM-EXTRAS/android_system_sepolicy" />
-<project name="ROM-EXTRAS/android_vendor_lineage" />
 </manifest>
